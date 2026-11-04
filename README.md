@@ -34,7 +34,7 @@ pnpm build
 
 ## Backup-এর সীমা
 
-বাস্তব `.env.local` / `.env.production.local`, passwords, secret keys, `node_modules/`, generated `dist/`, এবং আলাদা generated preview folders Git-এ রাখা হয় না। স্থানীয় ফাইলগুলো তাদের জায়গায় থাকে। `.gitignore`-এ বাদ দেওয়া reference files-ও স্থানীয়ভাবেই থাকে।
+বাস্তব `.env.local` / `.env.production.local`, passwords, secret keys, `node_modules/`, generated `dist/`, এবং আলাদা generated preview folders public Git source-এ রাখা হয় না। সম্পূর্ণ স্থানীয় ফোল্ডার ফেরত পেতে Releases-এর encrypted snapshot এবং আপনার recovery key ব্যবহার করুন: [সম্পূর্ণ backup ফিরিয়ে আনার নির্দেশনা](BACKUP_RECOVERY_BN.md)। স্থানীয় ফাইলগুলো তাদের জায়গায় থাকে।
 
 এই repository website source-এর backup। এটি live Supabase database, নতুন enquiries, uploaded media বা Cloudflare/server-side secrets-এর স্বয়ংক্রিয় backup নয়। নতুন deployment-এর সময় সংশ্লিষ্ট hosting ও backend settings আলাদাভাবে configure করতে হবে।
 
