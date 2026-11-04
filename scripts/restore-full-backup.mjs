@@ -1,6 +1,7 @@
 import fs from "node:fs"
 import path from "node:path"
-import { createDecipheriv } from "node:crypto"
+import { createDecipheriv, scrypt } from "node:crypto"
+import { promisify } from "node:util"
 import { pipeline } from "node:stream/promises"
 import { spawnSync } from "node:child_process"
 import { createInterface } from "node:readline/promises"
@@ -8,32 +9,49 @@ import { pathToFileURL } from "node:url"
 
 // Format: ASCII header, 12-byte nonce, ciphertext, 16-byte GCM tag.
 export const BACKUP_HEADER = Buffer.from("AVANCE-BACKUP-V1\n")
+export const PASSWORD_BACKUP_HEADER = Buffer.from("AVANCE-BACKUP-V2\n")
+const scryptAsync = promisify(scrypt)
+
+export async function derivePasswordKey(password, salt) {
+  if (!password) throw new Error("A recovery password is required.")
+  return scryptAsync(password, salt, 32, {
+    N: 131072, r: 8, p: 1, maxmem: 256 * 1024 * 1024,
+  })
+}
 
 export async function decryptBackup(inputFile, outputFile, recoveryKey) {
-  if (!/^[A-Za-z0-9_-]{43}$/.test(recoveryKey)) {
-    throw new Error("The recovery key must contain exactly 43 characters.")
-  }
-  const key = Buffer.from(recoveryKey, "base64url")
   const size = fs.statSync(inputFile).size
-  const prefixLength = BACKUP_HEADER.length + 12
-  if (size <= prefixLength + 16) throw new Error("Incomplete backup file.")
+  if (size <= BACKUP_HEADER.length + 12 + 16) throw new Error("Incomplete backup file.")
   const handle = fs.openSync(inputFile, "r")
-  let prefix, tag
+  let prefix, tag, header, prefixLength, key
   try {
+    header = Buffer.alloc(BACKUP_HEADER.length)
+    fs.readSync(handle, header, 0, header.length, 0)
+    const passwordMode = header.equals(PASSWORD_BACKUP_HEADER)
+    if (!passwordMode && !header.equals(BACKUP_HEADER)) {
+      throw new Error("Unsupported backup format.")
+    }
+    prefixLength = header.length + (passwordMode ? 16 : 0) + 12
+    if (size <= prefixLength + 16) throw new Error("Incomplete backup file.")
     prefix = Buffer.alloc(prefixLength)
     tag = Buffer.alloc(16)
     fs.readSync(handle, prefix, 0, prefix.length, 0)
     fs.readSync(handle, tag, 0, tag.length, size - tag.length)
+    if (passwordMode) {
+      key = await derivePasswordKey(recoveryKey, prefix.subarray(header.length, header.length + 16))
+    } else {
+      if (!/^[A-Za-z0-9_-]{43}$/.test(recoveryKey)) {
+        throw new Error("This older backup needs its original 43-character recovery key.")
+      }
+      key = Buffer.from(recoveryKey, "base64url")
+    }
   } finally {
     fs.closeSync(handle)
   }
-  if (!prefix.subarray(0, BACKUP_HEADER.length).equals(BACKUP_HEADER)) {
-    throw new Error("Unsupported backup format.")
-  }
   const decipher = createDecipheriv(
-    "aes-256-gcm", key, prefix.subarray(BACKUP_HEADER.length),
+    "aes-256-gcm", key, prefix.subarray(prefixLength - 12),
   )
-  decipher.setAAD(BACKUP_HEADER)
+  decipher.setAAD(header)
   decipher.setAuthTag(tag)
   await pipeline(
     fs.createReadStream(inputFile, { start: prefixLength, end: size - 17 }),
@@ -83,11 +101,11 @@ async function main() {
   if (fs.existsSync(target)) {
     throw new Error("Choose a new destination folder; existing folders are preserved.")
   }
-  let key = process.env.AVANCE_BACKUP_KEY
+  let key = process.env.AVANCE_BACKUP_PASSWORD ?? process.env.AVANCE_BACKUP_KEY
   if (!key) {
     const prompt = createInterface({ input: process.stdin, output: process.stdout })
     try {
-      key = (await prompt.question("Recovery key (from your backup chat): ")).trim()
+      key = await prompt.question("Recovery password (or original key for an older backup): ")
     } finally {
       prompt.close()
     }
