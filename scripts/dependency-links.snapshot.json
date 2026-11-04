@@ -1,0 +1,525 @@
+{
+  "formatVersion": 1,
+  "links": [
+    {
+      "path": "node_modules/.pnpm/@jridgewell+gen-mapping@0.3.13/node_modules/@jridgewell/sourcemap-codec",
+      "target": "node_modules/.pnpm/@jridgewell+sourcemap-codec@1.5.5/node_modules/@jridgewell/sourcemap-codec",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@jridgewell+gen-mapping@0.3.13/node_modules/@jridgewell/trace-mapping",
+      "target": "node_modules/.pnpm/@jridgewell+trace-mapping@0.3.31/node_modules/@jridgewell/trace-mapping",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@jridgewell+remapping@2.3.5/node_modules/@jridgewell/gen-mapping",
+      "target": "node_modules/.pnpm/@jridgewell+gen-mapping@0.3.13/node_modules/@jridgewell/gen-mapping",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@jridgewell+remapping@2.3.5/node_modules/@jridgewell/trace-mapping",
+      "target": "node_modules/.pnpm/@jridgewell+trace-mapping@0.3.31/node_modules/@jridgewell/trace-mapping",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@jridgewell+trace-mapping@0.3.31/node_modules/@jridgewell/resolve-uri",
+      "target": "node_modules/.pnpm/@jridgewell+resolve-uri@3.1.2/node_modules/@jridgewell/resolve-uri",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@jridgewell+trace-mapping@0.3.31/node_modules/@jridgewell/sourcemap-codec",
+      "target": "node_modules/.pnpm/@jridgewell+sourcemap-codec@1.5.5/node_modules/@jridgewell/sourcemap-codec",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@radix-ui+react-compose-ref_d42bab7ec05c1a5bcfb4e35477aa34ef/node_modules/@types/react",
+      "target": "node_modules/.pnpm/@types+react@19.2.14/node_modules/@types/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@radix-ui+react-compose-ref_d42bab7ec05c1a5bcfb4e35477aa34ef/node_modules/react",
+      "target": "node_modules/.pnpm/react@19.2.4/node_modules/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@radix-ui+react-slot@1.5.0_@types+react@19.2.14_react@19.2.4/node_modules/@radix-ui/react-compose-refs",
+      "target": "node_modules/.pnpm/@radix-ui+react-compose-ref_d42bab7ec05c1a5bcfb4e35477aa34ef/node_modules/@radix-ui/react-compose-refs",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@radix-ui+react-slot@1.5.0_@types+react@19.2.14_react@19.2.4/node_modules/@types/react",
+      "target": "node_modules/.pnpm/@types+react@19.2.14/node_modules/@types/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@radix-ui+react-slot@1.5.0_@types+react@19.2.14_react@19.2.4/node_modules/react",
+      "target": "node_modules/.pnpm/react@19.2.4/node_modules/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/@jridgewell/remapping",
+      "target": "node_modules/.pnpm/@jridgewell+remapping@2.3.5/node_modules/@jridgewell/remapping",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/enhanced-resolve",
+      "target": "node_modules/.pnpm/enhanced-resolve@5.20.1/node_modules/enhanced-resolve",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/jiti",
+      "target": "node_modules/.pnpm/jiti@2.6.1/node_modules/jiti",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/lightningcss",
+      "target": "node_modules/.pnpm/lightningcss@1.32.0/node_modules/lightningcss",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/magic-string",
+      "target": "node_modules/.pnpm/magic-string@0.30.21/node_modules/magic-string",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/source-map-js",
+      "target": "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/tailwindcss",
+      "target": "node_modules/.pnpm/tailwindcss@4.2.2/node_modules/tailwindcss",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+oxide@4.2.2/node_modules/@tailwindcss/oxide-win32-x64-msvc",
+      "target": "node_modules/.pnpm/@tailwindcss+oxide-win32-x64-msvc@4.2.2/node_modules/@tailwindcss/oxide-win32-x64-msvc",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+vite@4.2.2_vit_83d01a1ad950643a6fb71c0f699be31f/node_modules/@tailwindcss/node",
+      "target": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/@tailwindcss/node",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+vite@4.2.2_vit_83d01a1ad950643a6fb71c0f699be31f/node_modules/@tailwindcss/oxide",
+      "target": "node_modules/.pnpm/@tailwindcss+oxide@4.2.2/node_modules/@tailwindcss/oxide",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+vite@4.2.2_vit_83d01a1ad950643a6fb71c0f699be31f/node_modules/tailwindcss",
+      "target": "node_modules/.pnpm/tailwindcss@4.2.2/node_modules/tailwindcss",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@tailwindcss+vite@4.2.2_vit_83d01a1ad950643a6fb71c0f699be31f/node_modules/vite",
+      "target": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/vite",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@types+node@22.19.17/node_modules/undici-types",
+      "target": "node_modules/.pnpm/undici-types@6.21.0/node_modules/undici-types",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@types+react-dom@19.2.3_@types+react@19.2.14/node_modules/@types/react",
+      "target": "node_modules/.pnpm/@types+react@19.2.14/node_modules/@types/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@types+react@19.2.14/node_modules/csstype",
+      "target": "node_modules/.pnpm/csstype@3.2.3/node_modules/csstype",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@vitejs+plugin-react@6.0.1__05318466afad2b2fafa5bdbbe0faf527/node_modules/@rolldown/pluginutils",
+      "target": "node_modules/.pnpm/@rolldown+pluginutils@1.0.0-rc.7/node_modules/@rolldown/pluginutils",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/@vitejs+plugin-react@6.0.1__05318466afad2b2fafa5bdbbe0faf527/node_modules/vite",
+      "target": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/vite",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/class-variance-authority@0.7.1/node_modules/clsx",
+      "target": "node_modules/.pnpm/clsx@2.1.1/node_modules/clsx",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/enhanced-resolve@5.20.1/node_modules/graceful-fs",
+      "target": "node_modules/.pnpm/graceful-fs@4.2.11/node_modules/graceful-fs",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/enhanced-resolve@5.20.1/node_modules/tapable",
+      "target": "node_modules/.pnpm/tapable@2.3.2/node_modules/tapable",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/fdir@6.5.0_picomatch@4.0.4/node_modules/picomatch",
+      "target": "node_modules/.pnpm/picomatch@4.0.4/node_modules/picomatch",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/lightningcss@1.32.0/node_modules/detect-libc",
+      "target": "node_modules/.pnpm/detect-libc@2.1.2/node_modules/detect-libc",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/lightningcss@1.32.0/node_modules/lightningcss-win32-x64-msvc",
+      "target": "node_modules/.pnpm/lightningcss-win32-x64-msvc@1.32.0/node_modules/lightningcss-win32-x64-msvc",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/lucide-react@1.64.0_@types+react@19.2.14_react@19.2.4/node_modules/@types/react",
+      "target": "node_modules/.pnpm/@types+react@19.2.14/node_modules/@types/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/lucide-react@1.64.0_@types+react@19.2.14_react@19.2.4/node_modules/react",
+      "target": "node_modules/.pnpm/react@19.2.4/node_modules/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/magic-string@0.30.21/node_modules/@jridgewell/sourcemap-codec",
+      "target": "node_modules/.pnpm/@jridgewell+sourcemap-codec@1.5.5/node_modules/@jridgewell/sourcemap-codec",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@jridgewell/gen-mapping",
+      "target": "node_modules/.pnpm/@jridgewell+gen-mapping@0.3.13/node_modules/@jridgewell/gen-mapping",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@jridgewell/remapping",
+      "target": "node_modules/.pnpm/@jridgewell+remapping@2.3.5/node_modules/@jridgewell/remapping",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@jridgewell/resolve-uri",
+      "target": "node_modules/.pnpm/@jridgewell+resolve-uri@3.1.2/node_modules/@jridgewell/resolve-uri",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@jridgewell/sourcemap-codec",
+      "target": "node_modules/.pnpm/@jridgewell+sourcemap-codec@1.5.5/node_modules/@jridgewell/sourcemap-codec",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@jridgewell/trace-mapping",
+      "target": "node_modules/.pnpm/@jridgewell+trace-mapping@0.3.31/node_modules/@jridgewell/trace-mapping",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@oxc-project/types",
+      "target": "node_modules/.pnpm/@oxc-project+types@0.122.0/node_modules/@oxc-project/types",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@oxfmt/win32-x64",
+      "target": "node_modules/.pnpm/@oxfmt+win32-x64@0.2.0/node_modules/@oxfmt/win32-x64",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@radix-ui/react-compose-refs",
+      "target": "node_modules/.pnpm/@radix-ui+react-compose-ref_d42bab7ec05c1a5bcfb4e35477aa34ef/node_modules/@radix-ui/react-compose-refs",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@rolldown/binding-win32-x64-msvc",
+      "target": "node_modules/.pnpm/@rolldown+binding-win32-x64-msvc@1.0.0-rc.12/node_modules/@rolldown/binding-win32-x64-msvc",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@rolldown/pluginutils",
+      "target": "node_modules/.pnpm/@rolldown+pluginutils@1.0.0-rc.7/node_modules/@rolldown/pluginutils",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@tailwindcss/node",
+      "target": "node_modules/.pnpm/@tailwindcss+node@4.2.2/node_modules/@tailwindcss/node",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@tailwindcss/oxide",
+      "target": "node_modules/.pnpm/@tailwindcss+oxide@4.2.2/node_modules/@tailwindcss/oxide",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/@tailwindcss/oxide-win32-x64-msvc",
+      "target": "node_modules/.pnpm/@tailwindcss+oxide-win32-x64-msvc@4.2.2/node_modules/@tailwindcss/oxide-win32-x64-msvc",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/csstype",
+      "target": "node_modules/.pnpm/csstype@3.2.3/node_modules/csstype",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/detect-libc",
+      "target": "node_modules/.pnpm/detect-libc@2.1.2/node_modules/detect-libc",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/enhanced-resolve",
+      "target": "node_modules/.pnpm/enhanced-resolve@5.20.1/node_modules/enhanced-resolve",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/fdir",
+      "target": "node_modules/.pnpm/fdir@6.5.0_picomatch@4.0.4/node_modules/fdir",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/graceful-fs",
+      "target": "node_modules/.pnpm/graceful-fs@4.2.11/node_modules/graceful-fs",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/jiti",
+      "target": "node_modules/.pnpm/jiti@2.6.1/node_modules/jiti",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/lightningcss",
+      "target": "node_modules/.pnpm/lightningcss@1.32.0/node_modules/lightningcss",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/lightningcss-win32-x64-msvc",
+      "target": "node_modules/.pnpm/lightningcss-win32-x64-msvc@1.32.0/node_modules/lightningcss-win32-x64-msvc",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/magic-string",
+      "target": "node_modules/.pnpm/magic-string@0.30.21/node_modules/magic-string",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/nanoid",
+      "target": "node_modules/.pnpm/nanoid@3.3.11/node_modules/nanoid",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/picocolors",
+      "target": "node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/picomatch",
+      "target": "node_modules/.pnpm/picomatch@4.0.4/node_modules/picomatch",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/postcss",
+      "target": "node_modules/.pnpm/postcss@8.5.8/node_modules/postcss",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/rolldown",
+      "target": "node_modules/.pnpm/rolldown@1.0.0-rc.12/node_modules/rolldown",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/scheduler",
+      "target": "node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/source-map-js",
+      "target": "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/tapable",
+      "target": "node_modules/.pnpm/tapable@2.3.2/node_modules/tapable",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/tinyglobby",
+      "target": "node_modules/.pnpm/tinyglobby@0.2.15/node_modules/tinyglobby",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/node_modules/undici-types",
+      "target": "node_modules/.pnpm/undici-types@6.21.0/node_modules/undici-types",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/oxfmt@0.2.0/node_modules/@oxfmt/win32-x64",
+      "target": "node_modules/.pnpm/@oxfmt+win32-x64@0.2.0/node_modules/@oxfmt/win32-x64",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/postcss@8.5.8/node_modules/nanoid",
+      "target": "node_modules/.pnpm/nanoid@3.3.11/node_modules/nanoid",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/postcss@8.5.8/node_modules/picocolors",
+      "target": "node_modules/.pnpm/picocolors@1.1.1/node_modules/picocolors",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/postcss@8.5.8/node_modules/source-map-js",
+      "target": "node_modules/.pnpm/source-map-js@1.2.1/node_modules/source-map-js",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react",
+      "target": "node_modules/.pnpm/react@19.2.4/node_modules/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/scheduler",
+      "target": "node_modules/.pnpm/scheduler@0.27.0/node_modules/scheduler",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown@1.0.0-rc.12/node_modules/@oxc-project/types",
+      "target": "node_modules/.pnpm/@oxc-project+types@0.122.0/node_modules/@oxc-project/types",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown@1.0.0-rc.12/node_modules/@rolldown/binding-win32-x64-msvc",
+      "target": "node_modules/.pnpm/@rolldown+binding-win32-x64-msvc@1.0.0-rc.12/node_modules/@rolldown/binding-win32-x64-msvc",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/rolldown@1.0.0-rc.12/node_modules/@rolldown/pluginutils",
+      "target": "node_modules/.pnpm/@rolldown+pluginutils@1.0.0-rc.12/node_modules/@rolldown/pluginutils",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/tinyglobby@0.2.15/node_modules/fdir",
+      "target": "node_modules/.pnpm/fdir@6.5.0_picomatch@4.0.4/node_modules/fdir",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/tinyglobby@0.2.15/node_modules/picomatch",
+      "target": "node_modules/.pnpm/picomatch@4.0.4/node_modules/picomatch",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/@types/node",
+      "target": "node_modules/.pnpm/@types+node@22.19.17/node_modules/@types/node",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/jiti",
+      "target": "node_modules/.pnpm/jiti@2.6.1/node_modules/jiti",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/lightningcss",
+      "target": "node_modules/.pnpm/lightningcss@1.32.0/node_modules/lightningcss",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/picomatch",
+      "target": "node_modules/.pnpm/picomatch@4.0.4/node_modules/picomatch",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/postcss",
+      "target": "node_modules/.pnpm/postcss@8.5.8/node_modules/postcss",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/rolldown",
+      "target": "node_modules/.pnpm/rolldown@1.0.0-rc.12/node_modules/rolldown",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/tinyglobby",
+      "target": "node_modules/.pnpm/tinyglobby@0.2.15/node_modules/tinyglobby",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/@radix-ui/react-slot",
+      "target": "node_modules/.pnpm/@radix-ui+react-slot@1.5.0_@types+react@19.2.14_react@19.2.4/node_modules/@radix-ui/react-slot",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/@tailwindcss/vite",
+      "target": "node_modules/.pnpm/@tailwindcss+vite@4.2.2_vit_83d01a1ad950643a6fb71c0f699be31f/node_modules/@tailwindcss/vite",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/@types/node",
+      "target": "node_modules/.pnpm/@types+node@22.19.17/node_modules/@types/node",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/@types/react",
+      "target": "node_modules/.pnpm/@types+react@19.2.14/node_modules/@types/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/@types/react-dom",
+      "target": "node_modules/.pnpm/@types+react-dom@19.2.3_@types+react@19.2.14/node_modules/@types/react-dom",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/@vitejs/plugin-react",
+      "target": "node_modules/.pnpm/@vitejs+plugin-react@6.0.1__05318466afad2b2fafa5bdbbe0faf527/node_modules/@vitejs/plugin-react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/class-variance-authority",
+      "target": "node_modules/.pnpm/class-variance-authority@0.7.1/node_modules/class-variance-authority",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/clsx",
+      "target": "node_modules/.pnpm/clsx@2.1.1/node_modules/clsx",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/lucide-react",
+      "target": "node_modules/.pnpm/lucide-react@1.64.0_@types+react@19.2.14_react@19.2.4/node_modules/lucide-react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/oxfmt",
+      "target": "node_modules/.pnpm/oxfmt@0.2.0/node_modules/oxfmt",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/react",
+      "target": "node_modules/.pnpm/react@19.2.4/node_modules/react",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/react-dom",
+      "target": "node_modules/.pnpm/react-dom@19.2.4_react@19.2.4/node_modules/react-dom",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/tailwind-merge",
+      "target": "node_modules/.pnpm/tailwind-merge@3.7.0/node_modules/tailwind-merge",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/tailwindcss",
+      "target": "node_modules/.pnpm/tailwindcss@4.2.2/node_modules/tailwindcss",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/three",
+      "target": "node_modules/.pnpm/three@0.187.0/node_modules/three",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/typescript",
+      "target": "node_modules/.pnpm/typescript@5.9.3/node_modules/typescript",
+      "kind": "dir"
+    },
+    {
+      "path": "node_modules/vite",
+      "target": "node_modules/.pnpm/vite@8.0.5_@types+node@22.19.17_jiti@2.6.1/node_modules/vite",
+      "kind": "dir"
+    }
+  ]
+}

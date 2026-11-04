@@ -42,6 +42,35 @@ export async function decryptBackup(inputFile, outputFile, recoveryKey) {
   )
 }
 
+export function repairDependencyLinks(project, copiesDirectory) {
+  const metadata = path.join(project, "scripts", "dependency-links.snapshot.json")
+  if (!fs.existsSync(metadata)) return 0
+  const { links } = JSON.parse(fs.readFileSync(metadata, "utf8"))
+  const root = path.resolve(project)
+  const inside = (relative) => {
+    const result = path.resolve(root, relative)
+    if (!result.toLowerCase().startsWith(root.toLowerCase() + path.sep)) {
+      throw new Error("Dependency link points outside the restored project.")
+    }
+    return result
+  }
+  fs.mkdirSync(copiesDirectory, { recursive: true })
+  const sorted = [...links].sort((a, b) => b.path.length - a.path.length)
+  for (const [index, link] of sorted.entries()) {
+    const from = inside(link.path)
+    const target = inside(link.target)
+    if (!fs.existsSync(target)) throw new Error("Missing dependency target: " + link.target)
+    if (fs.lstatSync(from).isSymbolicLink()) continue
+    // Keep materialized copies outside the project; no files are deleted.
+    fs.renameSync(from, path.join(copiesDirectory, String(index).padStart(4, "0")))
+    const reference = process.platform === "win32"
+      ? target : path.relative(path.dirname(from), target)
+    fs.symlinkSync(reference, from,
+      process.platform === "win32" && link.kind === "dir" ? "junction" : link.kind)
+  }
+  return links.length
+}
+
 async function main() {
   const [input, destination] = process.argv.slice(2)
   if (!input || !destination) {
@@ -82,7 +111,9 @@ async function main() {
     stdio: "inherit",
   })
   if (extracted.status !== 0) throw new Error("Archive extraction failed.")
+  const repaired = repairDependencyLinks(project, path.join(target, "dependency-copies"))
   console.log(`Restored project: ${project}`)
+  console.log(`Restored dependency links: ${repaired}`)
   console.log("Original files and the downloaded backup were preserved.")
   console.log("Run pnpm typecheck and pnpm test inside the restored project.")
 }

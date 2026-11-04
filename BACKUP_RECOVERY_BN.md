@@ -20,7 +20,7 @@ Repository-এর ফোল্ডার থেকে চালান:
 node scripts/restore-full-backup.mjs "C:/Downloads/avance-website-full-2026-11-05.tar.gz.enc" "C:/Restored-Avance-Website"
 ```
 
-চাইলে recovery key paste করুন। Destination আগে থেকে থাকা চলবে না; আপনার পুরোনো ফাইল overwrite করা হবে না। ফিরিয়ে আনা website থাকবে `C:/Restored-Avance-Website/project`-এ। সেখান থেকে:
+চাইলে recovery key paste করুন। Destination আগে থেকে থাকা চলবে না; আপনার পুরোনো ফাইল overwrite করা হবে না। Script dependency links-ও নতুন folder-এর জন্য ঠিক করবে। ফিরিয়ে আনা website থাকবে `C:/Restored-Avance-Website/project`-এ। সেখান থেকে:
 
 ```sh
 pnpm typecheck
