@@ -1,0 +1,11 @@
+{
+  "result": "PASS",
+  "files": 47,
+  "scriptBytes": 494060,
+  "canonical": "https://avancelawpartners.info/",
+  "projectRef": "xweeslmfqpgnxfkgrbat",
+  "staticPublicIndexing": "PASS",
+  "secretPatternScan": "PASS",
+  "stageOriginScan": "PASS",
+  "note": "Local artifact checks only. Remote content, hostname authorization and CORS remain release gates."
+}

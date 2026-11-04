@@ -1,0 +1,13 @@
+{
+  "title": "Avance Law Partners | Law Firm in Dhaka, Bangladesh",
+  "description": "Corporate, commercial, regulatory and dispute resolution counsel in Dhaka, Bangladesh. Established in 1998.",
+  "language": "en",
+  "robots": {
+    "index": true
+  },
+  "openGraph": { "image": "https://avancelawpartners.info/images/social-card.png" },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

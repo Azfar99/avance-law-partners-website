@@ -1,0 +1,46 @@
+/* Mobile directory only. The existing 768px+ editorial layout is unchanged. */
+@media (max-width: 767px) {
+  .lawyer-directory__container { padding-top: 104px; padding-bottom: 64px; }
+  .lawyer-directory__masthead { margin-top: 24px; }
+  .lawyer-directory__masthead > div { padding-bottom: 12px; }
+  .lawyer-directory__masthead h1 { margin-top: 16px; font-size: 32px; }
+  .lawyer-directory__masthead > p { margin-top: 12px; font-size: 14px; line-height: 1.6; }
+
+  .lawyer-directory .lawyer-grid > .reveal-on-view {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+  .lawyer-entry { padding: 10px; min-width: 0; }
+  .lawyer-entry > a { display: flex; flex-direction: column; }
+  .lawyer-entry__index { left: 8px; top: 8px; height: 24px; min-width: 24px; padding: 0 5px; font-size: 9px; }
+  .lawyer-entry__details {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 12px;
+    padding-top: 12px;
+  }
+  .lawyer-entry h2 { font-size: clamp(17px, 4.5vw, 21px); overflow-wrap: anywhere; }
+  .lawyer-entry__designation { margin: 0; font-size: 12px; line-height: 1.4; letter-spacing: 0.02em; }
+  .lawyer-entry__professional {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .lawyer-entry__biography { display: none; }
+  .lawyer-entry .profile-action {
+    gap: 6px;
+    min-height: 36px;
+    margin-top: auto;
+    padding: 6px 8px;
+    font-size: 11.5px;
+    white-space: nowrap;
+  }
+  .lawyer-entry .profile-action svg { width: 14px; height: 14px; margin-left: 0; }
+}

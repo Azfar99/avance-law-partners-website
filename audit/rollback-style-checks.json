@@ -1,0 +1,80 @@
+[
+  {
+    "file": "pages/Home.tsx",
+    "originalClasses": 87,
+    "currentClasses": 87,
+    "identicalClasses": true
+  },
+  {
+    "file": "pages/Lawyers.tsx",
+    "originalClasses": 34,
+    "currentClasses": 34,
+    "identicalClasses": true
+  },
+  {
+    "file": "pages/About.tsx",
+    "originalClasses": 31,
+    "currentClasses": 31,
+    "identicalClasses": true
+  },
+  {
+    "file": "pages/Approach.tsx",
+    "originalClasses": 27,
+    "currentClasses": 27,
+    "identicalClasses": true
+  },
+  {
+    "file": "pages/Services.tsx",
+    "originalClasses": 28,
+    "currentClasses": 28,
+    "identicalClasses": true
+  },
+  {
+    "file": "pages/ServiceDetail.tsx",
+    "originalClasses": 29,
+    "currentClasses": 29,
+    "identicalClasses": true
+  },
+  {
+    "file": "pages/Legal.tsx",
+    "originalClasses": 9,
+    "currentClasses": 9,
+    "identicalClasses": true
+  },
+  {
+    "file": "components/Footer.tsx",
+    "originalClasses": 29,
+    "currentClasses": 29,
+    "identicalClasses": true
+  },
+  {
+    "file": "components/Logo.tsx",
+    "originalClasses": 7,
+    "currentClasses": 7,
+    "identicalClasses": true
+  },
+  {
+    "file": "components/LanguageSwitch.tsx",
+    "originalClasses": 1,
+    "currentClasses": 1,
+    "identicalClasses": true
+  },
+  {
+    "file": "components/PageHeader.tsx",
+    "originalClasses": 8,
+    "currentClasses": 8,
+    "identicalClasses": true
+  },
+  {
+    "file": "components/ui.tsx",
+    "originalClasses": 10,
+    "currentClasses": 10,
+    "identicalClasses": true
+  },
+  {
+    "file": "components/ui/button.tsx",
+    "originalClasses": 1,
+    "currentClasses": 1,
+    "identicalClasses": true
+  }
+]

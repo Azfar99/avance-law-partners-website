@@ -1,0 +1,13 @@
+# Store this website's assets directly in Git; no Git LFS client is required.
+* text=auto eol=lf
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.gif -text
+*.ico -text
+*.webp -text
+*.zip -text
+*.gz -text
+*.pdf -text
+*.woff -text
+*.woff2 -text

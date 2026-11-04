@@ -1,0 +1,164 @@
+{
+  "layout": [
+    {
+      "width": 320,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 390,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 768,
+      "noHorizontalOverflow": true
+    },
+    {
+      "width": 1440,
+      "noHorizontalOverflow": true
+    }
+  ],
+  "divider": {
+    "left": 69,
+    "right": 69,
+    "gap": 10
+  },
+  "views": [
+    {
+      "view": "/",
+      "title": "Avance Law Partners | Law Firm in Dhaka, Bangladesh",
+      "description": "Corporate, commercial, regulatory and dispute resolution counsel in Dhaka, Bangladesh. Established in 1998.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/about",
+      "title": "About the Firm | Avance Law Partners",
+      "description": "Learn about Avance Law Partners, established in 1998, and its legal practice serving companies, institutions and individuals in Dhaka, Bangladesh.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/approach",
+      "title": "Our Approach to Legal Counsel | Avance Law Partners",
+      "description": "Explore the responsive, practical and commercially focused approach to legal matters at Avance Law Partners in Dhaka, Bangladesh.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/services",
+      "title": "Legal Practice Areas in Dhaka | Avance Law Partners",
+      "description": "Explore corporate and company law, commercial advisory, contracts, energy regulation, litigation and arbitration services at Avance Law Partners.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/lawyers",
+      "title": "Our Lawyers in Dhaka | Avance Law Partners",
+      "description": "Meet the lawyers at Avance Law Partners and explore their supplied professional profiles, practice areas and contact information.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/services/corporate-company-law",
+      "title": "Corporate & Company Law | Practice Area | Avance Law Partners",
+      "description": "Incorporation, structuring, governance and the everyday corporate decisions that keep a company sound.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/lawyers/lawyer-one",
+      "title": "Israt Nayeer Enayet Arni | Legal Counsel | Avance Law Partners",
+      "description": "Israt Nayeer Enayet Arni - Managing Partner at Avance Law Partners, Dhaka, Bangladesh.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/contact",
+      "title": "Contact & Consultations in Dhaka | Avance Law Partners",
+      "description": "Contact Avance Law Partners in Hatirjheel, Dhaka, by phone or email, or submit an enquiry about your legal matter.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/privacy",
+      "title": "Privacy Policy | Avance Law Partners",
+      "description": "Read the privacy information and document status provided by Avance Law Partners for visitors and people making enquiries.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/disclaimer",
+      "title": "Legal Disclaimer | Avance Law Partners",
+      "description": "Read the legal disclaimer concerning website information and enquiries submitted to Avance Law Partners.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/terms",
+      "title": "Terms of Use | Avance Law Partners",
+      "description": "Read the website terms and document status provided by Avance Law Partners.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/admin/login",
+      "title": "Terms of Use | Avance Law Partners",
+      "description": "Read the website terms and document status provided by Avance Law Partners.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    },
+    {
+      "view": "/missing",
+      "title": "Page not found | Avance Law Partners",
+      "description": "Find your way back to Avance Law Partners.",
+      "canonical": "https://avancelawpartners.info/",
+      "canonicalCount": 1,
+      "og": "https://avancelawpartners.info/",
+      "robots": "noindex, nofollow",
+      "intro": false
+    }
+  ],
+  "reducedMotion": "pass",
+  "startupFailure": "CSS watchdog hides overlay without React",
+  "structuredData": "valid JSON LegalService",
+  "sitemap": "one real crawlable document",
+  "backendRequestsSent": 0,
+  "externalRequestsIntercepted": 31,
+  "limits": "Isolated local Chromium with external resources blocked; not field CWV or real-network LCP."
+}

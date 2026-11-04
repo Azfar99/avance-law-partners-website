@@ -1,0 +1,29 @@
+{
+  "normal": {
+    "playbackMs": 1004,
+    "fadeStartsMs": 805,
+    "appMountedWhileIntroVisible": true
+  },
+  "internalNavigation": "no replay; About still 28/43",
+  "reload": "replays on normal website reload",
+  "layouts": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "review": "same controller/timing; replay passed",
+  "keyboardSkip": "Escape and Tab release the app",
+  "pointerSkip": "passed",
+  "reducedMotion": "skips opening",
+  "slowApp": "opening ends independently before delayed application JS",
+  "slowImage": {
+    "skippedWithinMs": 472
+  },
+  "imageFailure": "safe skip",
+  "controllerFailure": "CSS watchdog hides opening at 1.5 seconds",
+  "noJavaScript": "noscript fallback",
+  "externalRequestsBlocked": 114,
+  "backendRequestsSent": 0,
+  "limitations": "Isolated local Chromium; external content/backend mocked; no field CWV measurement."
+}

@@ -1,0 +1,9 @@
+@media (prefers-reduced-motion: no-preference) {
+  .about-statistics--active .about-statistics__location {
+    animation: statistics-location 650ms ease-out both;
+  }
+}
+@keyframes statistics-location {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
+}

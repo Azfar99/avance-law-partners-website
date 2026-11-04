@@ -1,0 +1,4 @@
+project_id = "avance-law-partners"
+
+[functions.send-contact-enquiry]
+verify_jwt = true

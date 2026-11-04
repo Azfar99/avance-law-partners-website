@@ -1,0 +1,126 @@
+/* The firm's brass nameplate and dark stationery supply the two CTA finishes. */
+.firm-button {
+  --surface: var(--color-gold);
+  --edge: var(--color-gold-deep);
+  --ink: #211c12;
+  --rule: rgb(77 53 15 / 24%);
+  --hover-surface: #d5ad25;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  min-height: 48px;
+  padding: 9px 17px;
+  border: 1px solid var(--edge);
+  border-radius: 5px;
+  background-color: var(--surface);
+  color: var(--ink);
+  box-shadow: 0 2px 4px rgb(0 0 0 / 12%);
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  font-weight: 700;
+  line-height: 1.35;
+  text-align: start;
+  cursor: pointer;
+  touch-action: manipulation;
+  transition: background-color 160ms, border-color 160ms, box-shadow 160ms, transform 160ms;
+}
+
+.firm-button::before {
+  content: "";
+  position: absolute;
+  inset: 3px;
+  border: 1px solid var(--rule);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.firm-button--ink,
+.firm-button--outline {
+  --surface: #25251f;
+  --ink: #fcf6e9;
+  --edge: var(--color-gold);
+  --rule: transparent;
+  --hover-surface: #34332a;
+}
+
+.firm-button--ink {
+  --edge: #242219;
+  --rule: color-mix(in srgb, var(--color-gold) 35%, transparent);
+}
+
+.firm-button--ghost {
+  --surface: transparent;
+  --edge: transparent;
+  --rule: transparent;
+  --hover-surface: #e8e0cf;
+  box-shadow: none;
+}
+
+.firm-button--large {
+  min-height: 55px;
+  padding: 9px 15px 9px 21px;
+  font-size: 1rem;
+}
+
+.firm-button--icon { width: 48px; padding: 0; }
+.firm-button__content { display: inline-flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.firm-button__content:has(.firm-button__seal) { width: 100%; }
+.firm-button__label { min-width: 0; }
+
+.firm-button__seal {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 30px;
+  height: 30px;
+  color: currentColor;
+}
+
+.firm-button__seal svg { transition: transform 160ms ease-out; }
+.firm-button:focus-visible { outline: 2px solid #faf4df; outline-offset: 2px; box-shadow: 0 0 0 6px #6c5123; }
+.firm-button:disabled { opacity: 0.58; cursor: default; }
+
+@media (hover: hover) {
+  .firm-button:enabled:hover, a.firm-button:hover {
+    background-color: var(--hover-surface);
+    border-color: var(--color-gold);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  @media (hover: hover) {
+    .firm-button:enabled:hover .firm-button__seal svg,
+    a.firm-button:hover .firm-button__seal svg { transform: translateX(2px); }
+  }
+  .firm-button:enabled:active, a.firm-button:active { transform: translateY(1px); }
+}
+
+.firm-button:enabled:active, a.firm-button:active {
+  box-shadow: inset 0 2px 4px rgb(0 0 0 / 22%);
+}
+
+html[lang="bn"] .firm-button { font-family: inherit; line-height: 1.5; }
+
+@media (max-width: 639px) {
+  .hero-actions {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
+  }
+
+  .hero-actions .firm-button {
+    width: 100%;
+    min-width: 0;
+    min-height: 44px;
+    padding: 8px;
+    font-size: 12px;
+    box-shadow: none;
+  }
+
+  .hero-actions .firm-button::before { display: none; }
+  .hero-actions .firm-button__content { gap: 4px; }
+  .hero-actions .firm-button__seal { width: 15px; height: 18px; }
+  .hero-actions .firm-button__seal svg { width: 15px; height: 15px; }
+}

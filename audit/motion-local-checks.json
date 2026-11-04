@@ -1,0 +1,71 @@
+{
+  "intro": {
+    "background": "rgb(0, 0, 0)",
+    "logo": "http://127.0.0.1:65120/images/avance-law-partners-intro-960.webp",
+    "width": 249.59375,
+    "origins": [
+      "79px 0.5px",
+      "0px 0.5px"
+    ]
+  },
+  "divider": {
+    "left": 79,
+    "right": 79,
+    "gap": 10
+  },
+  "layouts": [
+    320,
+    360,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "practiceEntries": {
+    "Israt": 14,
+    "Farzana": 14,
+    "Fakhrul": 15,
+    "total": 43
+  },
+  "countSamples": [
+    9,
+    10,
+    12,
+    14,
+    15,
+    16,
+    18,
+    19,
+    20,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+  ],
+  "years": 28,
+  "scrollReplay": "does not reset",
+  "reviewReplay": "passed",
+  "reducedMotion": "passed",
+  "emptyPublishedList": "0, no fabricated defaults",
+  "backendRequestsSent": 0,
+  "externalRequestsIntercepted": 5,
+  "limits": "Isolated local Chromium with external APIs mocked. No field CWV or delivery claims."
+}

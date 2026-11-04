@@ -1,0 +1,116 @@
+/* Secondary actions use the shared site palette. */
+.action-mark {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid color-mix(in srgb, currentColor 40%, transparent);
+  border-radius: 4px;
+  transition: color 160ms ease, background-color 160ms ease, border-color 160ms ease;
+}
+.action-mark {
+  width: 2rem;
+  height: 2rem;
+  color: var(--color-copper);
+  background: color-mix(in srgb, var(--color-ivory) 70%, transparent);
+}
+
+.action-mark--dark {
+  color: var(--color-gold);
+  background: #24221b;
+}
+
+.text-action {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  min-height: 44px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: underline;
+  text-underline-offset: 0.28em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+}
+
+.contact-method {
+  display: grid;
+  align-content: center;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  column-gap: 1rem;
+  min-height: 96px;
+  padding: 0.875rem 1rem;
+  border: 1px solid #655638;
+  border-inline-start: 3px solid var(--color-gold);
+  border-radius: 4px;
+  background-color: #201f1b;
+  transition: background-color 160ms ease, border-color 160ms ease;
+}
+
+.contact-method > .action-mark {
+  grid-row: span 3;
+}
+
+.action-mark:has(.lucide-arrow-right, .lucide-arrow-down, .lucide-arrow-up-right) {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+:is(.control-parent, .text-action):hover .action-mark:has(.lucide-arrow-right, .lucide-arrow-down, .lucide-arrow-up-right),
+:is(.control-parent, .text-action):active .action-mark:has(.lucide-arrow-right, .lucide-arrow-down, .lucide-arrow-up-right) {
+  color: var(--color-gold-deep);
+  background: transparent;
+}
+
+.control-parent:hover .action-mark--dark:has(svg),
+.control-parent:active .action-mark--dark:has(svg) {
+  color: var(--color-gold);
+}
+
+.profile-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  min-height: 44px;
+  margin-top: 1.25rem;
+  padding: 0.5rem 0.85rem;
+  border: 1px solid var(--color-gold-deep);
+  border-radius: 4px;
+  color: var(--color-obsidian);
+  background-color: var(--color-ivory);
+  font-weight: 700;
+  font-size: 0.875rem;
+  transition: background-color 160ms ease, color 160ms ease;
+}
+
+@media (hover: hover) {
+  :is(.control-parent, .text-action):hover .action-mark,
+  .control-parent:hover .profile-action {
+    background-color: var(--color-charcoal);
+    color: var(--color-gold);
+    border-color: var(--color-gold-deep);
+  }
+
+  .text-action:hover { text-decoration-color: currentColor; }
+  .contact-method:hover { background-color: #2e2a21; border-color: var(--color-gold); }
+}
+
+.control-parent[aria-expanded="true"] .action-mark,
+:is(.control-parent, .text-action):active .action-mark,
+.control-parent:active .profile-action {
+  color: var(--color-obsidian);
+  background-color: var(--color-gold);
+  border-color: var(--color-gold-deep);
+}
+.text-action:focus-visible,
+.contact-method:focus-visible,
+.control-parent:focus-visible {
+  outline: 2px solid var(--color-gold-deep);
+  outline-offset: 3px;
+}
+
+
+

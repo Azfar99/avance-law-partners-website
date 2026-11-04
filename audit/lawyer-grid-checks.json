@@ -1,0 +1,57 @@
+{
+  "result": "pass",
+  "desktop": "pixel geometry and card styling unchanged",
+  "layouts": [
+    {
+      "width": 320,
+      "columns": 2,
+      "cardHeight": 335
+    },
+    {
+      "width": 360,
+      "columns": 2,
+      "cardHeight": 360
+    },
+    {
+      "width": 390,
+      "columns": 2,
+      "cardHeight": 380
+    },
+    {
+      "width": 430,
+      "columns": 2,
+      "cardHeight": 409
+    },
+    {
+      "width": 640,
+      "columns": 2,
+      "cardHeight": 524
+    },
+    {
+      "width": 767,
+      "columns": 2,
+      "cardHeight": 580
+    },
+    {
+      "width": 768,
+      "columns": 2,
+      "cardHeight": 709
+    },
+    {
+      "width": 1024,
+      "columns": 3,
+      "cardHeight": 699
+    },
+    {
+      "width": 1440,
+      "columns": 3,
+      "cardHeight": 785
+    }
+  ],
+  "sixProfiles": "2+2+2 rows using test fixtures only",
+  "profileNavigation": "passed",
+  "swipeUI": "removed",
+  "backendRequestsSent": 0,
+  "externalRequestsBlocked": 4,
+  "limits": "Local Chromium, API mocked and external fonts blocked; approved local portraits used."
+}

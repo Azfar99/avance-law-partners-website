@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="<!-- figma:lang -->">
+  <head>
+    <!-- figma:head-start -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <title><!-- figma:title --></title>
+    <link rel="canonical" href="https://avancelawpartners.info/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <meta name="theme-color" content="#101923" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="Avance Law Partners" />
+    <meta property="og:url" content="https://avancelawpartners.info/" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Avance Law Partners logo, Dhaka, Bangladesh" />
+    <meta name="twitter:title" content="Avance Law Partners | Law Firm in Dhaka, Bangladesh" />
+    <meta name="twitter:description" content="Corporate, commercial, regulatory and dispute resolution counsel in Dhaka, Bangladesh. Established in 1998." />
+    <meta name="twitter:image:alt" content="Avance Law Partners logo, Dhaka, Bangladesh" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <script type="application/ld+json" id="firm-structured-data">
+      {"@context":"https://schema.org","@type":"LegalService","@id":"https://avancelawpartners.info/#organization","name":"Avance Law Partners","url":"https://avancelawpartners.info/","logo":"https://avancelawpartners.info/images/avance-law-partners-logo.webp","image":"https://avancelawpartners.info/images/social-card.png","foundingDate":"1998","address":{"@type":"PostalAddress","streetAddress":"House 5, Block A, Road No. 2, Mohanagar Project, Hatirjheel","addressLocality":"Dhaka","addressCountry":"BD"}}
+    </script>
+    <style id="brand-intro-styles">
+      .brand-intro{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;background:#000;touch-action:none;opacity:1;transition:opacity 100ms ease;animation:intro-expire 1ms step-start 1000ms forwards}
+      .brand-intro__identity{position:relative;width:min(98vw,640px);aspect-ratio:1}
+      .brand-intro__scene{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+      .brand-intro__frames{display:none}
+      .brand-intro__mark{position:absolute;left:50%;top:50%;width:min(76vw,320px);aspect-ratio:1;transform:translate(-50%,-50%)}
+      .brand-intro__logo{display:block;width:100%;height:100%;object-fit:contain}
+      /* Aligned crops of the authentic artwork; the original signature completes it. */
+      .brand-intro__logo--main{clip-path:inset(0 0 22% 0);animation:intro-fade 200ms ease-out 430ms both;animation-play-state:paused}
+      .brand-intro__signature{position:absolute;inset:0;animation:intro-signature 200ms cubic-bezier(.2,.65,.3,1) 575ms both;animation-play-state:paused}
+      .brand-intro__logo--signature{clip-path:inset(78% 0 0 0)}
+      .brand-intro--playing .brand-intro__logo--main,.brand-intro--playing .brand-intro__signature{animation-play-state:running}
+      .brand-intro--ready{opacity:0}
+      @keyframes intro-fade{from{opacity:0}to{opacity:1}}
+      @keyframes intro-signature{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+      @keyframes intro-expire{to{visibility:hidden;opacity:0;pointer-events:none}}
+      @media(prefers-reduced-motion:reduce){.brand-intro,.brand-intro *{animation:none;transition:none}.brand-intro{display:none}}
+    </style>
+    <noscript><style>.brand-intro{display:none}</style></noscript>
+    <!-- figma:head-end -->
+  </head>
+  <body>
+    <!-- figma:body-start -->
+    <div id="brand-intro" class="brand-intro" aria-hidden="true">
+      <div class="brand-intro__identity">
+        <canvas class="brand-intro__scene" width="512" height="512" aria-hidden="true"></canvas>
+        <img class="brand-intro__frames" data-gavel-atlas src="/images/intro-gavel-512.webp" width="4096" height="2048" alt="" decoding="async" fetchpriority="high" />
+        <div class="brand-intro__mark">
+          <img class="brand-intro__logo brand-intro__logo--main" src="/images/avance-law-partners-intro-480.webp" srcset="/images/avance-law-partners-intro-480.webp 480w, /images/avance-law-partners-intro-960.webp 960w" sizes="(max-width: 421px) 76vw, 320px" width="960" height="960" alt="" decoding="async" fetchpriority="high" />
+          <div class="brand-intro__signature">
+            <img class="brand-intro__logo brand-intro__logo--signature" src="/images/avance-law-partners-intro-480.webp" srcset="/images/avance-law-partners-intro-480.webp 480w, /images/avance-law-partners-intro-960.webp 960w" sizes="(max-width: 421px) 76vw, 320px" width="960" height="960" alt="" decoding="async" fetchpriority="high" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="root"></div>
+    <noscript><p>Avance Law Partners, Dhaka, Bangladesh. Enable JavaScript to browse the website.</p></noscript>
+    <script id="brand-intro-controller">
+// Lightweight playback of the locally rendered Three.js atlas + native particles.
+// A single clock drives pose, contact, smoke and sparks; no runtime 3D dependency.
+(() => {
+  window.createAvanceOpeningScene = (intro) => {
+    const canvas = intro.querySelector("canvas");
+    const atlas = intro.querySelector("[data-gavel-atlas]");
+    if (!canvas || !atlas) return null;
+    const ctx = canvas.getContext("2d", { alpha: true });
+    if (!ctx) return null;
+    const resolution = Math.min(2, window.devicePixelRatio || 1) * Math.min(640, window.innerWidth * .98);
+    canvas.width = canvas.height = Math.ceil(resolution);
+    const scale = canvas.width / 512;
+    // Seeded particles make Replay and frame-by-frame review reproducible.
+    let seed = 1998;
+    const random = () => { seed = (seed * 1664525 + 1013904223) >>> 0; return seed / 4294967296; };
+    const particles = Array.from({ length: 76 }, (_, i) => {
+      const angle = -Math.PI + random() * Math.PI;
+      const speed = 140 + random() * 310;
+      return { vx: Math.cos(angle) * speed, vy: Math.sin(angle) * speed - 25, life: .4 + random() * .45, r: 1 + random() * 1.25, hot: i % 3 === 0 };
+    });
+    const puffs = Array.from({ length: 12 }, () => ({ x: (random() - .5) * 130, y: -20 - random() * 85, r: 27 + random() * 38, rotation: random() * Math.PI, delay: random() * .1 }));
+    const mist = document.createElement("canvas");
+    mist.width = mist.height = 128;
+    const mc = mist.getContext("2d");
+    const glow = mc.createRadialGradient(64, 64, 0, 64, 64, 64);
+    glow.addColorStop(0, "rgba(214,204,181,.72)");
+    glow.addColorStop(.35, "rgba(173,164,149,.4)");
+    glow.addColorStop(1, "rgba(137,128,115,0)");
+    mc.fillStyle = glow;
+    mc.fillRect(0, 0, 128, 128);
+    mc.globalCompositeOperation = "destination-out";
+    for (let i = 0; i < 26; i++) {
+      mc.beginPath();
+      mc.fillStyle = "rgba(0,0,0,.16)";
+      mc.ellipse(random() * 128, random() * 128, 5 + random() * 15, 4 + random() * 10, random() * Math.PI, 0, Math.PI * 2);
+      mc.fill();
+    }
+    const clamp = n => Math.max(0, Math.min(1, n));
+    function draw(ms) {
+      ctx.setTransform(scale, 0, 0, scale, 0, 0);
+      ctx.clearRect(0, 0, 512, 512);
+      const sinceContact = (ms - 540) / 1000;
+      // Keep the rear grip visually fixed; impact comes from the head and particles,
+      // rather than shaking the entire image (which would also move the handle).
+      // Black below the gavel is an invisible floor, suggested only by contact light.
+      if (atlas.complete && atlas.naturalWidth) {
+        const frame = Math.min(31, Math.max(0, Math.floor(ms * .03)));
+        const cell = atlas.naturalWidth / 8;
+        ctx.globalAlpha = clamp(ms / 110) * (1 - clamp((ms - 690) / 270));
+        ctx.drawImage(atlas, frame % 8 * cell, Math.floor(frame / 8) * cell, cell, cell, 0, 0, 512, 512);
+        ctx.globalAlpha = 1;
+      }
+      if (sinceContact < 0 || sinceContact > 1.04) return;
+      const x = 256.00, y = 379.08, t = sinceContact;
+      // One warm impact bloom, rather than repeated flashes.
+      const bloom = Math.exp(-t * 10);
+      ctx.save();
+      ctx.globalCompositeOperation = "lighter";
+      const impact = ctx.createRadialGradient(x, y, 0, x, y, 65 + t * 100);
+      impact.addColorStop(0, `rgba(255,234,183,${.9 * bloom})`);
+      impact.addColorStop(.13, `rgba(237,167,61,${.7 * bloom})`);
+      impact.addColorStop(.5, `rgba(143,73,23,${.35 * bloom})`);
+      impact.addColorStop(1, "rgba(84,43,13,0)");
+      ctx.fillStyle = impact;
+      ctx.fillRect(x - 180, y - 180, 360, 360);
+      ctx.globalAlpha = .65 * Math.exp(-t * 6);
+      ctx.strokeStyle = "#c8984c";
+      ctx.lineWidth = 1.2;
+      ctx.beginPath();
+      ctx.ellipse(x, y, 12 + t * 220, 2 + t * 30, 0, 0, Math.PI * 2);
+      ctx.stroke();
+      ctx.globalAlpha = 1;
+      for (const p of particles) {
+        if (t > p.life) continue;
+        const px = x + p.vx * t, py = y + p.vy * t + 150 * t * t;
+        const tail = .025;
+        ctx.globalAlpha = (1 - t / p.life) ** .6;
+        ctx.strokeStyle = p.hot ? "#fff1cc" : "#eab25c";
+        ctx.lineWidth = p.r;
+        ctx.lineCap = "round";
+        ctx.beginPath();
+        ctx.moveTo(px - p.vx * tail, py - (p.vy + 300 * t) * tail);
+        ctx.lineTo(px, py);
+        ctx.stroke();
+        if (p.hot) {
+          ctx.fillStyle = "rgba(237,164,64,.12)";
+          ctx.beginPath();ctx.arc(px, py, 4.5, 0, Math.PI * 2);ctx.fill();
+        }
+      }
+      ctx.restore();
+      // Soft textured smoke rises around the logo instead of tiny invisible dots.
+      for (const puff of puffs) {
+        const u = t - puff.delay;
+        if (u < 0) continue;
+        const fade = Math.sin(clamp(u / .9) * Math.PI);
+        const radius = puff.r * (.5 + u * 1.6);
+        ctx.save();
+        ctx.globalAlpha = fade * .6;
+        ctx.translate(x + puff.x * u, y + puff.y * u - u * 100);
+        ctx.rotate(puff.rotation + u * .25);
+        ctx.drawImage(mist, -radius, -radius * .65, radius * 2, radius * 1.3);
+        ctx.restore();
+      }
+    }
+    return { draw, dispose() { canvas.width = canvas.height = 1; mist.width = mist.height = 1; } };
+  };
+})();
+// Shared by the document and standalone review. Opening playback is independent
+// of React readiness/API requests: 900ms presentation + 100ms exit, once per load.
+(() => {
+  let cancelCurrent;
+  window.startAvanceOpening = (options = {}) => {
+    cancelCurrent?.();
+    const intro = document.getElementById("brand-intro");
+    if (!intro) return Promise.resolve("unavailable");
+    return new Promise((resolve) => {
+      // Slow playback exists only on the standalone review, never the website.
+      const speed = document.body.dataset.openingReview === "true" && options.slow === true ? .5 : 1;
+      intro.style.transitionDuration = `${100 / speed}ms`;
+      const root = document.getElementById("root");
+      const wasInert = root?.hasAttribute("inert");
+      const motion = window.matchMedia?.("(prefers-reduced-motion: reduce)");
+      const timers = [];
+      const startedAt = performance.now();
+      const logos = [...intro.querySelectorAll("img")];
+      let frameRequest;
+      let scene;
+      let finished = false;
+      const finish = (reason) => {
+        if (finished) return;
+        finished = true;
+        cancelCurrent = undefined;
+        timers.forEach(clearTimeout);
+        cancelAnimationFrame(frameRequest);
+        scene?.dispose();
+        if (!wasInert) root?.removeAttribute("inert");
+        intro.remove();
+        document.removeEventListener("keydown", onKey);
+        document.removeEventListener("visibilitychange", onVisibility);
+        motion?.removeEventListener?.("change", onMotion);
+        intro.removeEventListener("pointerdown", onPointer);
+        logos.forEach(logo => logo.removeEventListener("error", onError));
+        resolve(reason);
+      };
+      const onKey = (event) => { if (event.key === "Escape" || event.key === "Tab") finish("skipped"); };
+      const onPointer = (event) => { event.preventDefault(); finish("skipped"); };
+      const onVisibility = () => { if (document.hidden) finish("hidden"); };
+      const onMotion = () => { if (motion.matches) finish("reduced-motion"); };
+      const onError = () => finish("image-error");
+      cancelCurrent = () => finish("replayed");
+      // Register the hard cleanup before making the underlying app inert.
+      timers.push(setTimeout(() => finish("deadline"), 1000 / speed));
+      intro.getAnimations({ subtree: true }).forEach(animation => { animation.playbackRate = speed; });
+      if (motion?.matches) { finish("reduced-motion"); return; }
+      if (document.hidden) { finish("hidden"); return; }
+      try {
+        root?.setAttribute("inert", "");
+        document.addEventListener("keydown", onKey);
+        document.addEventListener("visibilitychange", onVisibility);
+        motion?.addEventListener?.("change", onMotion);
+        intro.addEventListener("pointerdown", onPointer);
+        logos.forEach(logo => logo.addEventListener("error", onError, { once: true }));
+        const imageBudget = setTimeout(() => finish("image-timeout"), 225);
+        timers.push(imageBudget);
+        const decoded = logos.map(logo => {
+          if (typeof logo.decode === "function") return logo.decode();
+          if (logo.complete) return logo.naturalWidth ? Promise.resolve() : Promise.reject();
+          return new Promise((ok, fail) => { logo.addEventListener("load", ok, { once: true }); logo.addEventListener("error", fail, { once: true }); });
+        });
+        Promise.all(decoded).then(() => {
+          if (finished) return;
+          clearTimeout(imageBudget);
+          try { scene = window.createAvanceOpeningScene?.(intro); } catch { /* Logo-only fallback. */ }
+          intro.classList.add("brand-intro--playing");
+          intro.getAnimations({ subtree: true }).forEach(animation => {
+            animation.playbackRate = speed;
+            // Catch up to the shared clock after decode; do not extend the intro.
+            if (animation.effect?.target !== intro) animation.currentTime = (performance.now() - startedAt) * speed;
+          });
+          const frame = now => {
+            if (finished) return;
+            // Atlas/particles retain their authored two-second time coordinates.
+            try { scene?.draw((now - startedAt) * 2 * speed); } catch { scene?.dispose(); scene = null; }
+            frameRequest = requestAnimationFrame(frame);
+          };
+          frameRequest = requestAnimationFrame(frame);
+          timers.push(setTimeout(() => intro.classList.add("brand-intro--ready"), Math.max(0, 900 / speed - (performance.now() - startedAt))));
+          timers.push(setTimeout(() => finish("complete"), Math.max(0, 1000 / speed - (performance.now() - startedAt))));
+        }, onError);
+      } catch { finish("unavailable"); }
+    });
+  };
+  window.startAvanceOpening();
+})();
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+    <!-- figma:body-end -->
+  </body>
+</html>

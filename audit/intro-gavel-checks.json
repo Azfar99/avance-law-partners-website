@@ -1,0 +1,63 @@
+{
+  "result": "PASS",
+  "checks": [
+    {
+      "width": 320,
+      "ms": 1006,
+      "reason": "complete",
+      "removed": true,
+      "alignmentError": 2.842170943040401e-14,
+      "errors": 0,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "ms": 1012,
+      "reason": "complete",
+      "removed": true,
+      "alignmentError": 2.842170943040401e-14,
+      "errors": 0,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "ms": 1007,
+      "reason": "complete",
+      "removed": true,
+      "alignmentError": 5.684341886080802e-14,
+      "errors": 0,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "ms": 1006,
+      "reason": "complete",
+      "removed": true,
+      "alignmentError": 0,
+      "errors": 0,
+      "overflow": false
+    },
+    {
+      "reviewOnlySlowReplay": "PASS",
+      "ms": 2000
+    },
+    {
+      "reducedMotion": "PASS"
+    },
+    {
+      "escapeSkip": "PASS"
+    },
+    {
+      "imageFailure": "PASS"
+    },
+    {
+      "canvasFailure": "PASS"
+    },
+    {
+      "noJavaScript": "PASS"
+    },
+    {
+      "normalWebsiteCleanupAndInternalNavigation": "PASS"
+    }
+  ]
+}

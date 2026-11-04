@@ -1,0 +1,34 @@
+{
+  "scope": "Original logo signature reveal",
+  "first": {
+    "opacity": "0",
+    "transform": "matrix(1, 0, 0, 1, 0, 8)"
+  },
+  "last": {
+    "opacity": "1",
+    "transform": "matrix(1, 0, 0, 1, 0, 0)"
+  },
+  "asset": {
+    "url": "http://127.0.0.1:64770/images/avance-law-partners-intro-960.webp",
+    "dimensions": [
+      249,
+      249
+    ],
+    "splitY": 194,
+    "maxAlpha": 1
+  },
+  "layouts": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "replay": "passed",
+  "normalReadinessDismissal": "passed",
+  "reducedMotion": "passed",
+  "imageFailure": "passed",
+  "javascriptDisabledFallback": "passed",
+  "extraDividerAndBrandName": "removed",
+  "backendRequestsSent": 0,
+  "externalRequestsBlocked": 14
+}

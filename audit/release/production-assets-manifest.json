@@ -1,0 +1,235 @@
+{
+  "worker": "polished-night-5f7c",
+  "projectRef": "xweeslmfqpgnxfkgrbat",
+  "status": "LOCAL_CANDIDATE_PENDING_REMOTE_GATES",
+  "archive": "production-assets.zip",
+  "archiveSha256": "fa3362e195a8db67c45e984b91d2f005b1c7c5c4f41e7025ec10a802d51f8fe7",
+  "files": [
+    {
+      "file": "_headers",
+      "bytes": 203,
+      "sha256": "cc6d26c21e44244ffed535c22367b2dd52504344356d030e774d455166f66a39"
+    },
+    {
+      "file": "apple-touch-icon.png",
+      "bytes": 13206,
+      "sha256": "895e3b1636a2a4bb167a9d7b3c3cecdba0bae748b2295bea958ea057d02817bd"
+    },
+    {
+      "file": "assets/AdminDashboard-E_B39x_v.js",
+      "bytes": 5471,
+      "sha256": "7a3609e63123ca2f64cb964d1ff93eafbef1585aabd8b0ba3fee9de0cad55b2d"
+    },
+    {
+      "file": "assets/AdminEnquiries-D7iBWG4W.js",
+      "bytes": 3658,
+      "sha256": "d45d539e52574b6d0ca77dd4ac5cc7e04b2d0f65756f2bc016a922a5b377d7e4"
+    },
+    {
+      "file": "assets/AdminEnquiryDetail-CBE6fqal.js",
+      "bytes": 6550,
+      "sha256": "1c3128fffbccbba59a011612a484c6f46e37c32548a72544b5a675dc65a097fc"
+    },
+    {
+      "file": "assets/AdminLawyerEdit-B7nSX1HM.js",
+      "bytes": 11718,
+      "sha256": "0e0b6321f80a741b8175156d947f45a2c97e160bb57466cbc1eb852388b1cf70"
+    },
+    {
+      "file": "assets/AdminLawyersList-D-YcmgCj.js",
+      "bytes": 4958,
+      "sha256": "64dacd5db99669fde250efbd53f5b59074b63234576579db319b446c38d66962"
+    },
+    {
+      "file": "assets/AdminLayout-BrPylBEx.js",
+      "bytes": 6353,
+      "sha256": "10d39b7dcb76349755a1c1941e45a8d6a7f0cb6611453260c63fa71bff679ef5"
+    },
+    {
+      "file": "assets/AdminLegalPages-DlJcEH5C.js",
+      "bytes": 3525,
+      "sha256": "05cb23533ffcb594b5d22061164291d03b8845fb82dca2a990a89146fe81e736"
+    },
+    {
+      "file": "assets/AdminLogin-B_nYogvM.js",
+      "bytes": 3833,
+      "sha256": "e6a09b5b8606de924cb096f3b7673589dba3406bb47c58bd48a9ebc831d510ab"
+    },
+    {
+      "file": "assets/AdminMedia-B6eKMaKh.js",
+      "bytes": 2887,
+      "sha256": "b0ace7cc964c0c58b07f1e2d2e2cc33e6b0d46ca38571398297ccc790c1c5cdf"
+    },
+    {
+      "file": "assets/AdminPageEditor-TR7IoW4B.js",
+      "bytes": 5523,
+      "sha256": "232c9c9b2fe3f1094996c3e4719b632d0baba0eed86de22f621a87a832562b6d"
+    },
+    {
+      "file": "assets/AdminSEO-CKKwMddH.js",
+      "bytes": 5402,
+      "sha256": "26909033d70b5b246cad956fac447d2be0c2376ec52e7560e363bcce6488d740"
+    },
+    {
+      "file": "assets/AdminServiceEdit-BN6poM0e.js",
+      "bytes": 6783,
+      "sha256": "c07e685a05b74c1f7edca411d5ac6bd03d3de2deb13c83a3a18f03637e2e9066"
+    },
+    {
+      "file": "assets/AdminServicesList-DPLWFtCr.js",
+      "bytes": 3719,
+      "sha256": "25b6db2c7ba835ba6a6b6f7d69063bffbe5236ead253a3cccdd61b2462e9f743"
+    },
+    {
+      "file": "assets/AdminSiteSettings-Bv70Obq_.js",
+      "bytes": 7820,
+      "sha256": "991a4c082035b37f0ac8307230717b9609de65f8a9699735e77a0de07dc38c0a"
+    },
+    {
+      "file": "assets/ConfirmDialog-B1Jrkb-m.js",
+      "bytes": 1590,
+      "sha256": "173d1e4aec3ddc9057074cbb9fba994c7b004a3216823173edb6bfd1c7cc8c37"
+    },
+    {
+      "file": "assets/FormField-BKEoDU7G.js",
+      "bytes": 482,
+      "sha256": "0d82d3f092e902b322584e6acaacc9e311a36495a8722f571f63c0af07fc9409"
+    },
+    {
+      "file": "assets/index-Cc4OkBP7.css",
+      "bytes": 78766,
+      "sha256": "8f4520c7d0331fd8c208216fde2533a9fa17966cc4c0572b19e83999812062c0"
+    },
+    {
+      "file": "assets/index-DCugVWqt.js",
+      "bytes": 391509,
+      "sha256": "4f0d46a02e0150f157e70c9f7ab2b7903e7d285fcd207c9e522135201e5f0be6"
+    },
+    {
+      "file": "assets/StatusBadge-BnoYsgla.js",
+      "bytes": 532,
+      "sha256": "c0e7d38ad9c5fd65f0747717f95b1d2d5ed669ba3c31379c8c9e804652563d0c"
+    },
+    {
+      "file": "assets/storage-ClDGBnt4.js",
+      "bytes": 377,
+      "sha256": "0f1b570e0814363362711f6e6f5a0a749391decb4b0fed650ff8c3c843139b25"
+    },
+    {
+      "file": "assets/supabase-BwjUE2-c.js",
+      "bytes": 20174,
+      "sha256": "c25a888bfa498bb7b4df6380043b394b1c3d4e7218ffb000e1873495eae11e89"
+    },
+    {
+      "file": "assets/Toast-DxQDPsAV.js",
+      "bytes": 1196,
+      "sha256": "5740ed76ba09b00d9dfc01b5805ee85890fccaee1f6cdc4d4cc5bdc25b6fe328"
+    },
+    {
+      "file": "brand-intro-preview.html",
+      "bytes": 8319,
+      "sha256": "7d2856f55018d6feef7ade3110e8e73f6efbdea58748cf8760a18eabb62d3a7e"
+    },
+    {
+      "file": "favicon-16x16.png",
+      "bytes": 533,
+      "sha256": "a387798e87a7e4eef257d19c65fb676f9cacb8de4f6bb8110fdbc4412febad3b"
+    },
+    {
+      "file": "favicon-32x32.png",
+      "bytes": 1311,
+      "sha256": "a646419858987f5cbb150b96396ee5416fb173fa384404a16ec5a91756e737d9"
+    },
+    {
+      "file": "favicon.ico",
+      "bytes": 7377,
+      "sha256": "e4e45cf901d1219322e40cec94c6ce23386cd928523f669baee64fbb0ba0e07e"
+    },
+    {
+      "file": "favicon.svg",
+      "bytes": 25489,
+      "sha256": "c270ee45d42911fc8288d4e4dc865bcc41499e32de328b88672bfad27254d040"
+    },
+    {
+      "file": "images/avance-law-partners-intro-480.webp",
+      "bytes": 75364,
+      "sha256": "c86099217ee41a11e0eb7f0b3ca94b28c2e3d4cee53745b4d01563ec4e09e002"
+    },
+    {
+      "file": "images/avance-law-partners-intro-960.webp",
+      "bytes": 223664,
+      "sha256": "bb00e28dbcfd3bbffd54aae4822130db514d3d34d4ef63b40d90335e42830070"
+    },
+    {
+      "file": "images/avance-law-partners-intro.webp",
+      "bytes": 25878,
+      "sha256": "3f019d093ad8ad54c66e8efc7ac08f24e3547fd3501c9aa8aa054675291f177a"
+    },
+    {
+      "file": "images/avance-law-partners-logo.png",
+      "bytes": 901628,
+      "sha256": "caee54a013f146e6d5aee95a5118eac2f1f242310423c12f8bbf0d61205375a2"
+    },
+    {
+      "file": "images/avance-law-partners-logo.webp",
+      "bytes": 39152,
+      "sha256": "8ba3f0081ae2ce3feca98939a56e3e85935825dab4f5648e47a659be7524105f"
+    },
+    {
+      "file": "images/lawyers/fakhrul-islam-mozumder.png",
+      "bytes": 1306234,
+      "sha256": "96f2072f70f67ab87d45136f204810745d1aa87043aba76bb3728c700b2d4e82"
+    },
+    {
+      "file": "images/lawyers/fakhrul-islam-mozumder.webp",
+      "bytes": 112934,
+      "sha256": "78f4d21cbbd1bb7e00d144b9d08bdbc55b5cfe3309f46511a9f0d2a628dac907"
+    },
+    {
+      "file": "images/lawyers/farzana-alam.png",
+      "bytes": 2528557,
+      "sha256": "6d53a6025bc0d469503dada747ae163f03cce9285f5b07d3992ef132fce7dc85"
+    },
+    {
+      "file": "images/lawyers/farzana-alam.webp",
+      "bytes": 121324,
+      "sha256": "c351e77e244e62fad4eda1ff9f8eb96d1be740e6644c516ace61ed993ca99dc9"
+    },
+    {
+      "file": "images/lawyers/israt-nayeer-enayet-arni.png",
+      "bytes": 3614688,
+      "sha256": "9e705471075d55f011058c73453f5412398922bb57640d6b2ae80d0cde242c99"
+    },
+    {
+      "file": "images/lawyers/israt-nayeer-enayet-arni.webp",
+      "bytes": 126070,
+      "sha256": "d880b0b8df13062ff3bd1b799b2806878d2475a1d1422f7ca519ee0c006dc103"
+    },
+    {
+      "file": "images/lawyers/rishad.png",
+      "bytes": 726346,
+      "sha256": "74d848b13dc15ca5fa51c13ab2037a16130b2e24c184a795f3d32d9c9f47ecbf"
+    },
+    {
+      "file": "images/social-card.png",
+      "bytes": 117826,
+      "sha256": "5be7d1d2e3d24c64e1cc474fe3ae42187f034b0215dcd0be89b5b09a283f7691"
+    },
+    {
+      "file": "index.html",
+      "bytes": 9190,
+      "sha256": "61253b05aa60a1c1d2d485644e903019385c14f6002c6087e9d57f7b716936a6"
+    },
+    {
+      "file": "robots.txt",
+      "bytes": 110,
+      "sha256": "5f5bafc509ef3fa460e6a4e654b707c0ad69a48c1a14a04a35667f1136ef334f"
+    },
+    {
+      "file": "sitemap.xml",
+      "bytes": 257,
+      "sha256": "951d6381811bb4a44f0cdf1e3a9065367cf6af9b84dd3156d2b8c083e90f7526"
+    }
+  ],
+  "seedSha256": "09999ec0b83689094b2e637091e0acd1b2d4a1846771641b4f03bfbe5aaeb49b"
+}
